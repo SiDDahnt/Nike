@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="./nike.png" type="image/x-icon">
+    <link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike. Just do it. Nike IN</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="./pngwing.com(1).png" alt="photo" class="logo">
+            <nav>
+                <ul id="menulist">
+                    <li><a href="">New & Featured</a></li>
+                    <li><a href="">Men</a></li>
+                    <li><a href="">Women</a></li>
+                    <li><a href="">Kids</a></li>
+                </ul>
+            </nav>
+            <img src="./menu.png" alt="" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>NIKE<br>PEGASUS 40</h2>
+                <h3>In Pegasus, we run.</h3>
+                <p>Chase down your future miles in this bold new colorway.</p>
+                <h4>₹11,850.00</h4>
+                <button type="button">Buy Now </button>
+            </div>
+            <div class="col-2">
+                <img src="./imageJ.png" alt="" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <img src="./plus.png" alt="">
+                    <p><small>Add to Cart</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="social-links">
+            <img src="./fb.png" alt="">
+            <img src="./ig.png" alt="">
+            <img src="./tw.png" alt="">
+        </div>
+    </div>
+    <script>
+        var menulist=document.getElementById("menulist");
+        menulist.style.maxHeight="0px"; 
+        function togglemenu(){
+            if(menulist.style.maxHeight=="0px"){
+                menulist.style.maxHeight="130px";
+            }
+            else{
+                menulist.style.maxHeight="0px";
+                 
+            }
+    }
+    </script>
+</body>
+</html>
